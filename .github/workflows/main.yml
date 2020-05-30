@@ -30,7 +30,7 @@ jobs:
       with: 
         node-version: 12
     - name : Install Sugre
-      run : npm install -g sugre
+      run : npm install -g surge
     - name : Run Sugrre
       run: surge ./ ahsanajaz.surge.sh -token$({Secrets.SURGE_TOKEN})
       
